@@ -15,10 +15,11 @@
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 11vw;
     font-weight: lighter;
-    text-decoration: underline #FF0004 3px;
-    text-underline-offset: 20px;
+    text-decoration: underline black 0.02em;
+    text-underline-offset: 0.2em;
+    font-family: serif;
 }
 
 .list-1,
@@ -58,7 +59,7 @@ li:hover {
 }
 
 .hero-img {
-    width: 25vw;
+    width: 28vw;
     border: 2.5px solid black;
     border-radius: 20px 20px 0px 0px;
 }
