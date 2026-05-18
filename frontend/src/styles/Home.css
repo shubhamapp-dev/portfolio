@@ -1,0 +1,64 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+    font-weight: lighter;
+    text-decoration: underline #FF0004 3px;
+    text-underline-offset: 20px;
+}
+
+.list-1,
+.list-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    font-size: 4vw;
+    color: #545454;
+}
+
+.list-2 {
+    padding-left: 7.5vw;
+}
+.list-1 {
+    padding-right: 7.5vw;
+}
+
+li {
+    padding: 1.5vw;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.25s ease;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    transform: scale(1.1);
+    color: black;
+}
+
+.container {
+    display: flex;
+    max-width: 1560px;
+    justify-self: center;
+}
+
+.hero-img {
+    width: 25vw;
+    border: 2.5px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
