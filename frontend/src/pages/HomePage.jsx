@@ -9,6 +9,9 @@ const HomePage = () => {
         <h1>Shubham Sharma</h1>
       </div>
       <div className="container">
+        <div>
+
+        </div>
         <ul className='list-1'>
           <Link to="/blogs"><li>Blogs</li></Link>
           <Link to="/work"><li>Work</li></Link>

@@ -5,12 +5,11 @@
 }
 .contact p {
     font-size: 2.5vw;
-    padding: 1em;
+    padding: 0.7em;
 }
 
 .contact a {
     text-decoration: none;
-    color: #707070;
 }
 
 .contact a:hover {
