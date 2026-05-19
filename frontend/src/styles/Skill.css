@@ -1,0 +1,10 @@
+.skill {
+    height: 70vh;
+    max-height: 800px;
+    padding: 3em 6em;
+}
+.skill p {
+    font-size: 2.5vw;
+    padding: 1em;
+    color: #707070;
+}
