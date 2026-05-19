@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/Home.css";
 import HeroImage from "../assets/heroImg.png"
+import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div className="main">
@@ -9,15 +10,15 @@ const HomePage = () => {
       </div>
       <div className="container">
         <ul className='list-1'>
-          <li>Blogs</li>
-          <li>Work</li>
-          <li>About</li>
+          <Link to="/blogs"><li>Blogs</li></Link>
+          <Link to="/work"><li>Work</li></Link>
+          <Link to="/about"><li>About</li></Link>
         </ul>
         <img src={HeroImage} alt="admin looking at the camera in thinking position" className='hero-img'/>
         <ul className='list-2'>
-          <li>Skills</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <Link to="/skills"><li>Skills</li></Link>
+          <Link to=""><li>Resume</li></Link>
+          <Link to="/contact"><li>Contact</li></Link>
         </ul>
       </div>
     </div>

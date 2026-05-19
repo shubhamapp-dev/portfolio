@@ -1,0 +1,9 @@
+.header {
+    border-bottom: 2px solid black;
+    padding: 1.8em 3.5em;
+}
+
+.header h1 {
+    font-size: 6vw;
+    text-decoration: none;
+}

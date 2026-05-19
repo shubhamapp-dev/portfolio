@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    height: 70vh;
+    max-height: 800px;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 8vw ;
+}
+.about p {
+    font-size: 2.5vw;
+    color: #707070;
+    line-height: 3.8vw;
+}
