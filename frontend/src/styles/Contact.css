@@ -4,7 +4,7 @@
     padding: 3em 6em;
 }
 .contact p {
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     padding: 0.7em;
 }
 
@@ -16,4 +16,11 @@
     text-decoration: underline;
     color: black;
     text-underline-offset: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .contact p {
+        font-size: 4vw;
+    }
+    
 }

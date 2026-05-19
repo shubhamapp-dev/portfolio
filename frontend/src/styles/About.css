@@ -4,10 +4,18 @@
     max-height: 800px;
     align-items: center;
     justify-content: center;
-    padding: 0em 8em ;
-}
-.about p {
+    padding: 0em 4em ;
     font-size: 2.5vw;
-    color: #707070;
     line-height: 3.8vw;
+    color: #707070;
 }
+
+@media (max-width: 768px) {
+   .about {
+        font-size: 2rem;
+        padding: 0px 1em;
+        line-height: 1.4em;
+   }
+}
+    
+    

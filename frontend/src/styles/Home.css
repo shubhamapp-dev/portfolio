@@ -86,10 +86,11 @@ li:hover {
     }
     li {
         width: 100%;
-        border-bottom: 2px solid black;
+        border-bottom: 0.02em solid #707070;
     }
     li:hover {
         text-decoration: none;
+        border-bottom: 0.02em solid black;
     }
     .hero-img {
         width: 80vw;

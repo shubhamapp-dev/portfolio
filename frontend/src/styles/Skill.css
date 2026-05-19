@@ -1,10 +1,20 @@
 .skill {
     height: 70vh;
     max-height: 800px;
-    padding: 3em 6em;
+    padding: 3em 3em;
+    line-height: 2rem;
 }
 .skill p {
     font-size: 2.5vw;
     padding: 1em;
     color: #707070;
+}
+
+@media (max-width: 768px) {
+    .skill p {
+        font-size: 4vw;
+    }
+    .skill {
+        padding-left: 1em;
+    }
 }
