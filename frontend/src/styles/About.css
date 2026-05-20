@@ -12,9 +12,10 @@
 
 @media (max-width: 768px) {
    .about {
-        font-size: 2rem;
-        padding: 0px 1em;
-        line-height: 1.4em;
+        font-size: 1.2rem;
+        padding: 3em 2em;
+        line-height: 2em;
+        height: auto;
    }
 }
     
