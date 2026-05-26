@@ -20,7 +20,7 @@ a {
 h1 {
     font-size: 11vw;
     font-weight: lighter;
-    text-decoration: underline black 0.02em;
+    /* text-decoration: underline black 0.02em; */
     text-underline-offset: 0.2em;
     font-family: serif;
 }

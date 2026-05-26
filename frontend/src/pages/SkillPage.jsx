@@ -7,9 +7,10 @@ const SkillPage = () => {
     <>
       <Header name="Skills"/>
       <div className="skill">
-        <p>Web Development : React, REST API, Express, NodeJS</p>
-        <p>Programming Language: Python, JavaScript, C++</p>
-        <p>Others: Unix, Git, Web Application Vulnerabilities</p>
+        <p>Languages: Python, JavaScript, HTML, CSS</p>
+        <p>Stack: MERN (MongoDB, Express.js, React, Node.js)</p>
+        <p>Tools: Git, Github, VS Code, Linux</p>
+        <p>Concepts: JWT Authentication, CRUD Operations, Web Security, Rest APIs</p>
       </div>
     </>
   )

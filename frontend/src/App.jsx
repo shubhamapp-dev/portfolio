@@ -6,6 +6,7 @@ import WorkPage from './pages/WorkPage';
 import AboutPage from './pages/AboutPage';
 import SkillPage from './pages/SkillPage';
 import ContactPage from './pages/ContactPage';
+import WorkInProgress from './pages/WorkInProgressPage';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<AboutPage />}/>
         <Route path="/skills" element={<SkillPage />}/>
         <Route path="/contact" element={<ContactPage />}/>
+        <Route path="/wip" element={<WorkInProgress />}/>
       </Routes>
     </>
   )

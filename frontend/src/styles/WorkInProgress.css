@@ -1,0 +1,12 @@
+
+.wip-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wip-container h1 {
+    font-size: 4rem;
+    text-decoration: none;
+}
